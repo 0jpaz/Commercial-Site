@@ -1,4 +1,21 @@
 header{
     height: 100px;
-    
+    background-color: rebeccapurple;
+}
+
+.title{
+    text-align: center;
+}
+p{
+    font-weight: 600;
+    text-align: justify;
+}
+
+.price{
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+}
+.title{
+    color: aqua;
 }
