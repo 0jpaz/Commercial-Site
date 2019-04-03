@@ -1,21 +1,36 @@
 header{
     height: 100px;
     background-color: rebeccapurple;
-}
-
-.title{
     text-align: center;
 }
-p{
-    font-weight: 600;
-    text-align: justify;
+.title{
+    text-align: center
 }
-
+.option{
+    margin: 24px 0;
+    padding: 4px;
+}
 .price{
-    font-size: 24px;
     display: block;
+    font-size: 30px;
     margin: 0 auto;
 }
-.title{
-    color: aqua;
+#cart{
+    padding: 16px;
+    border: 2px solid rgb(0, 200, 200);
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+#cart > select,
+#cart > input,
+#cart > output{
+    width: 75px;
+    margin-right: 16px;
+
+}
+output{
+    font-weight: 700;
+    width: 100px;
 }
