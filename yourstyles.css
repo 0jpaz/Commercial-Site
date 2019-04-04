@@ -17,7 +17,7 @@ header{
 }
 #cart{
     padding: 16px;
-    border: 2px solid rgb(0, 200, 200);
+    border: 2px solid indigo;
     width: 600px;
     margin: 0 auto;
 
@@ -33,4 +33,7 @@ header{
 output{
     font-weight: 700;
     width: 100px;
+}
+#h1{
+    background-color: blue;
 }
